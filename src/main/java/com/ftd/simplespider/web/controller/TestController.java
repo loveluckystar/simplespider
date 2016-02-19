@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /** 
  * @Description: TODO(这里用一句话描述这个类的作用) 
  * @ClassName: TestController 
- * @author bjlixing 
+ * @author bjlixing dd
  */
 @Controller
 @RequestMapping("/test")
