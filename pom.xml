@@ -157,6 +157,22 @@
     	<artifactId>aspectjrt</artifactId>
     	<version>1.6.12</version>
     </dependency>
+    <!-- ActiveMQ依赖begin -->
+    <dependency>
+    	<groupId>org.apache.activemq</groupId>
+    	<artifactId>activemq-all</artifactId>
+    	<version>5.13.1</version>
+    </dependency>
+    <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-messaging</artifactId>
+		<version>4.2.5.RELEASE</version>
+	</dependency>
+	<dependency>
+	  <groupId>jxl</groupId>
+	  <artifactId>jxl</artifactId>
+	  <version>1.0</version>
+	</dependency>
   </dependencies>
   <build>
     <finalName>simplespider</finalName>

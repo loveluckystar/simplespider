@@ -20,6 +20,7 @@ public class TestController {
 	public String test(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		System.out.println("in");
 		try {
+			request.setAttribute("result", "abddd");
 			return "/template/test";
 		} catch (Exception e) {
 			e.printStackTrace();

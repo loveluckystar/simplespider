@@ -75,4 +75,14 @@
       <servlet-name>velocity</servlet-name>
       <url-pattern>*.vm</url-pattern>
   </servlet-mapping>
+  
+  <!-- Spring Application Context Listener Start -->
+  <context-param>
+	  <param-name>contextConfigLocation</param-name>
+	  <param-value>classpath*:applicationContext.xml,classpath*:ActiveMQ.xml</param-value>
+  </context-param>
+  <listener>
+	  <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <!-- Spring Application Context Listener End -->
 </web-app>
